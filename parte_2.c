@@ -85,7 +85,7 @@ int main()
             printf("Cadena validada: %s\n", cadena);
             break;
         case 8:
-            validarYConvertirAMayusculas("Ingrese una cadena: ", cadena);
+            validarletras("Ingrese una cadena: ", cadena);
             if (esPalindromo(cadena))
             {
                 printf("La cadena es un palindromo.\n");
